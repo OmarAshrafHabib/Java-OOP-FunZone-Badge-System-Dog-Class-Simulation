@@ -1,11 +1,20 @@
-# Java-OOP-FunZone-Badge-System-Dog-Class-Simulation
+# Java OOP: FunZone Badge System & Dog Class Simulation
 
-This project contains two Java applications designed to demonstrate fundamental principles of object-oriented programming (OOP), encapsulation, and Javadoc documentation in Java. The first application simulates a simple Dog class with attributes and methods to model a pet’s characteristics and behaviors. The second application, the FunZone Entertainment Center simulation, introduces a FunZoneBadge system to track visitor interactions and expenses within an entertainment center, featuring methods for calculating charges and charitable donations.
+## Overview
+This project demonstrates key Java OOP concepts through two applications:
+1. **Dog Class Simulation**: Models a simple `Dog` class with attributes for a dog’s name, age, and age in "human years." The project includes methods for managing dog attributes and calculating age equivalency.
+2. **FunZone Badge System**: A system to track visitor activities and charges in a fictional entertainment center. The `FunZoneBadge` class manages visitor information, badge ID, accumulated charges, and calculates donations.
 
-Both simulations include driver programs for testing and generating formatted outputs, showcasing:
+## Features
+- **OOP Principles**: Shows encapsulation and object interaction with constructors, accessors, and mutators.
+- **Javadoc Documentation**: Each class and method includes Javadoc comments for clarity.
+- **Driver Programs**: `DogTestDriver` and `FunZoneDriver` test each application’s functionality, simulating user interactions and displaying outputs.
 
- - Classes and Objects: Creation of custom classes with constructors, accessor, and mutator methods.
- - Encapsulation and Data Management: Use of private instance variables with accessor and mutator methods.
- - Java Documentation: Javadoc comments for each class, method, and variable, along with HTML documentation generated using Javadoc utility.
+## Usage
+1. Compile `Dog.java`, `DogTestDriver.java`, `FunZoneBadge.java`, and `FunZoneDriver.java`.
+2. Run each driver to test the Dog and FunZoneBadge functionality, respectively.
 
-These assignments were developed as part of a computer science course to deepen understanding of Java’s class structure and foundational OOP concepts.
+## Documentation
+Generate Javadoc documentation by running:
+```bash
+javadoc -author -private Dog.java FunZoneBadge.java
