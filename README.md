@@ -1,0 +1,2 @@
+# Java-OOP-FunZone-Badge-System-Dog-Class-Simulation
+This Java project demonstrates OOP fundamentals through two applications: a Dog class simulating pet attributes and behaviors, and a FunZoneBadge system tracking visitor expenses at an entertainment center. Each class includes constructors, accessors, and mutators, with detailed Javadoc documentation for learning encapsulation and data management.
